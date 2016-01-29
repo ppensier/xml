@@ -1,4 +1,4 @@
-#script to build the image based on ubuntu
+#script to build the image based on debian 
 
 FROM debian
 

@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<Annuaire quoi="celebrite"
-	xmlns="http://www.ensg.eu/celebrite"
-	xmlns:celebrite="http://www.ensg.eu/celebrite"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.ensg.eu/celebrite annuaire.xsd">
-
-	<Personne nom="Einstein" prenom="Albert" epoque="epoque_moderne">
-		<fonction>Physicien</fonction>
-	</Personne>
-
-	<Personne nom="Bhor" prenom="Niels" epoque="epoque_moderne">
-		<fonction>Physicien</fonction>
-	</Personne>
-
-	<Personne nom="Galileo" prenom="Galilei" epoque="epoque_moderne">
-		<fonction>Physicien</fonction>
-	</Personne>
+<repertoire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="repertoire.xsd">
+    <!-- John DOE -->
+    <personne sexe="masculin">
+        <nom>DOE</nom>
+        <prenom>John</prenom>
+        <adresse>
+            <numero>7</numero>
+            <voie type="impasse">impasse du chemin</voie>
+            <codePostal>75015</codePostal>
+            <ville>PARIS</ville>
+            <pays>FRANCE</pays>
+        </adresse>
+        <telephones>
+            <telephone type="fixe">01 02 03 04 05</telephone>
+            <telephone type="portable">06 07 08 09 10</telephone>
+        </telephones>
+        <emails>
+            <email type="personnel">john.doe@wanadoo.fr</email>
+            <email type="professionnel">john.doe@societe.com</email>
+        </emails>
+    </personne>
 	
-	<Personne nom="Curie" prenom="Marie" epoque="epoque_moderne">
-		<fonction>Physicien</fonction>
-	</Personne>
-	
-	<Personne nom="Poincaré" prenom="Henri" epoque="epoque_moderne">
-		<fonction>Mathématicien</fonction>
-	</Personne>
+    <!-- Marie POPPINS -->
+    <personne sexe="feminin">
+        <nom>POPPINS</nom>
+        <prenom>Marie</prenom>
+        <adresse>
+            <numero>28</numero>
+            <voie type="avenue">avenue de la république</voie>
+            <codePostal>13005</codePostal>
+            <ville>MARSEILLE</ville>
+            <pays>FRANCE</pays>
+        </adresse>
+        <telephones>
+            <telephone type="bureau">04 05 06 07 08</telephone>
+        </telephones>
+        <emails>
+            <email type="professionnel">contact@poppins.fr</email>
+        </emails>
+    </personne>
+</repertoire>
 
-	<Personne nom="Descartes" prenom="René" epoque="epoque_moderne">
-		<fonction>Mathématicien</fonction>
-	</Personne>
-
-	<Personne nom="Pythagore" prenom="René" epoque="antiquite">
-		<fonction>Mathématicien</fonction>
-	</Personne>
-
-	<Epoque nom="antiquite" date="avant JC"/>
-
-	<Epoque nom="epoque_moderne" date="après JC"/>
-
-</Annuaire>

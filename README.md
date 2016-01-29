@@ -6,7 +6,7 @@ L'application proposée permet de valider un fichier XSD ainsi que son fichier X
 
 ## Construction de l'image
 
-L'image Docker proposée fonctionnne à partir d'une image basée sur ubuntu et utilise un outils de validation xml issu de la librairie libxml2-utils: xmllint. Pour cela, la construction de la nouvelle image est basée sur un dockerfile.
+L'image Docker proposée fonctionnne à partir d'une image basée sur debian et utilise un outils de validation xml issu de la librairie libxml2-utils: xmllint. Pour cela, la construction de la nouvelle image est basée sur l'utilisation d'un dockerfile, où on se contente juste d'installer libxml2 (voir le Dockerfile).
 
 Commande correspondant à la construction de l'image:
 

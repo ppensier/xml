@@ -1,6 +1,6 @@
 #script to build the image based on ubuntu
 
-FROM debian:jessie
+FROM debian
 
 MAINTAINER ppensier
 
